@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Store</title>
+  <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger fixed-top">
+    <div class="container-fluid">
+      <div class="logo"><img style="height: 50px; width: 60px;" class="img-fluid .img-rounded"
+          src="https://as2.ftcdn.net/v2/jpg/01/21/94/89/1000_F_121948933_nZDkxthbUGXdomibO3iegN303of5QLQ3.jpg"></div>
+      <a class="navbar-brand" href="#">MYSTORE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div>
+
+        </div>
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="contact.html">contact</a>
+          </li>
+
+
+
+
+        </ul>
+        <div>
+          <a href="form.html">
+            <button class="btn btn-danger btn2">
+              <i style="font-size: 30px;" class="fa fa-user"></i>
+              <div style="font-size: 10px;" class="badge bg-danger"></div>
+            </button>
+          </a>
+
+          <button class="btn btn-danger">
+            <i style="font-size: 30px;" class="fa fa-cart-plus"></i>
+            <div style="font-size: 10px;" class="badge bg-danger" id="count">0</div>
+          </button>
+        </div>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid px-4 px-lg-5 h-100 bg-image hm" style="height: 600px;">
+    <div class="row gx-4 gx-lg-5 h-100 align-items-center justify-content-center text-center bg-text">
+      <div class="col-lg-8 ">
+        <h1 class="font-weight-bold hm1" style="color: red; font-size: 40px;"><i>Keep pace with technology</i></h1>
+        <hr class="divider" />
+      </div>
+      <div class="col-lg-8 align-self-baseline">
+        <p class="text-white-75 mb-5" style="color: orangered;">A well-set paragraph of text is not supposed
+           to wow the reader; the wowing should be left to the idea or observation for which the paragraph is a vehicle. In fact, the perfect paragraph is unassuming to
+           the point of near invisibility. That is not to say that the appearance of your text should 
+           have no appeal at al</p>
+        <a class="btn btn-primary btn-xl" href="index.html">Buy Now</a>
+        <br><br>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div class="text-danger" style="text-align: center;">
+<h2 style="font-size: 25px;" >Products</h2>
+  </div>
+  <div class="container">
+    <div id="root"></div>
+    <div class="sidebar">
+      <div class="head">
+        <p>My Cart</p>
+      </div>
+      <div id="cartitem">Your cart is empty</div>
+      <div class="foot">
+        <h3>Total</h3>
+        <h2 id="total">$ 0.00</h2>
+      </div>
+    </div>
+  </div>
+  <footer class="text-center text-lg-start bg-light text-muted footer">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <!-- <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div> -->
+      <!-- Left -->
+  
+      <!-- Right -->
+      <!-- <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fa fa-github"></i>
+        </a>
+      </div> -->
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p>
+              Here you can use rows and columns to organize your footer content. Lorem ipsum
+              dolor sit amet, consectetur adipisicing elit.
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Useful links
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fa fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fa fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fa fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fa fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color:brown">
+      © 2023 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Mystore.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
+  <script src="jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
